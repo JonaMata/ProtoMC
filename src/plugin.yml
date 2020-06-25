@@ -1,0 +1,10 @@
+name: ProtoMC
+version: 0.0.1
+author: Jonathan Matarazzi
+main: nl.saproto.protomc.Main
+api-version: 1.16
+website: proto.utwente.nl
+commands:
+  proto:
+    description: Use the power of proto
+    usage: just do it
