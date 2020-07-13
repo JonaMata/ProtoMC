@@ -23,6 +23,7 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: Upload plugin jar
+      uses: actions/upload-artifact@v2
       with:
         name: Plugin jar
         path: target/ProtoMC.jar
