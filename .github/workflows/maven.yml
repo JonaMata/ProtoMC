@@ -22,6 +22,8 @@ jobs:
         java-version: 1.8
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: Deplay to as GitHUb package
+      run: mvn deploy -Dregistry=https://maven.pkg.github.com/JonaMata -Dtoken=GH_TOKEN
     - name: Upload plugin jar
       uses: actions/upload-artifact@v2
       with:
