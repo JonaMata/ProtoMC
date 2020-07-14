@@ -64,4 +64,12 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub JonaMata Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/JonaMata/ProtoMC</url>
+        </repository>
+    </distributionManagement>
 </project>
