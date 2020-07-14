@@ -2,11 +2,9 @@ name: Pre-Release
 
 on:
   push:
-    branches:
-      - master
-  pull-request:
-    branches:
-      - master
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
   pre-release:
